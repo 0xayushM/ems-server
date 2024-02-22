@@ -20,7 +20,7 @@ import com.ems.ems.service.EmployeeService;
 
 import lombok.AllArgsConstructor;
 
-@CrossOrigin("*")
+@CrossOrigin("https://ems-server-production.up.railway.app/")
 @AllArgsConstructor
 @RestController
 @RequestMapping("/api/employees")
